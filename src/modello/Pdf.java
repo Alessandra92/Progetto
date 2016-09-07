@@ -27,25 +27,6 @@ public class Pdf {
 	private int idCitta;
 	private int idEsame;
 	
-//	public Pdf(ResultSet dati) throws SQLException{
-//		this.nomePaziente = dati.getString("nomePaziente");
-//		this.cognomePaziente = dati.getString("cognomePaziente");
-//		this.cf = dati.getString("cf");
-//		this.dataNas = dateToCalendar(dati.getDate("dataNas"));
-//		this.nomeAzienda = dati.getString("nomeAzienda");
-//		this.indirizzoAzienda = dati.getString("indirizzoAzienda");
-//		this.esame = dati.getString("esame");
-//		this.note = dati.getString("note");
-//		this.costo = dati.getDouble("costo");
-//		this.dataprenotazione = dateToCalendar(dati.getDate("dataprenotazione"));
-//		this.dataEsame = dateToCalendar(dati.getDate("dataEsame"));
-//		this.citta = dati.getString("citta");
-//		this.idPaziente = dati.getInt("idPaziente");
-//		this.idPrenotazione = dati.getInt("idPrenotazione");
-//		this.idAzienda = dati.getInt("idAzienda");
-//		this.idCitta = dati.getInt("idCitta");
-//		this.idEsame = dati.getInt("idEsame");
-//	}
 
 	public String getNomePaziente() {
 		return nomePaziente;
